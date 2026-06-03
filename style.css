@@ -216,6 +216,36 @@ display: block;
     font-weight: bold;
     margin-top: 30px;
     font-size: 1.3rem;
-    
+}
 
+@media (max-width: 768px) {
+   .contenedor-principal {
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .barra-lateral {
+       width: 100%;
+       position: static;
+       padding: 15px;
+    }
+
+    .libro-recuerdos {
+        width: 100%;
+        padding: 10px;
+    }
+    .libro-recuerdos h2 {
+        font-size: 1.5rem;
+    }
+    .libro-recuerdos .subtitulo {
+        margin-bottom: 20px;
+    }
+    .contenido-recuerdo h2 {
+        font-size: 1.1rem;
+    }
+    .carta-final p {
+        font-size: 0.95rem;
+        text-align: left;
+    }
 }
